@@ -1,0 +1,7 @@
+#1
+find . -print | grep -i '.*[.]php'
+
+#2
+find . -type f -name '*.php' -printf '%TY-%Tm-%Td %TT %p\n' | sort
+
+#http://techbuba.com/threads/tim-kiem-toan-bo-file-php-tren-vps-linux.11734/
