@@ -1,2 +1,6 @@
 #How to import an SQL file using the command line in MySQL
+
 mysql -u username -p database_name < file.sql
+
+
+#http://techbuba.com/threads/11726/
